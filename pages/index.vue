@@ -34,15 +34,13 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
-  }
-}
-
-export default {
+  },
   fetch ({store}) {
     store.commit('resetMenu')
   }
 }
 </script>
+
 
 <style>
 .container {
