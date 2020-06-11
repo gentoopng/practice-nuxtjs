@@ -36,6 +36,12 @@ export default {
     Logo
   }
 }
+
+export default {
+  fetch ({store}) {
+    store.commit('resetMenu')
+  }
+}
 </script>
 
 <style>
